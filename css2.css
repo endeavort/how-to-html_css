@@ -1,0 +1,19 @@
+/* headerクラス */
+.header {
+  /* 背景色の変更 */
+  background-color: #26d0c9;
+  /* 高さ (px：ピクセル) */
+  height: 90px;
+}
+
+/* mainクラス */
+.main {
+  background-color: #bdf7f1;
+  height: 600px;
+}
+
+/* footerクラス */
+.footer {
+  background-color: #ceccf3;
+  height: 270px;
+}
