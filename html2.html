@@ -1,23 +1,39 @@
+<!-- HTMLのバージョン宣言 -->
 <!DOCTYPE html>
 
+<!-- HTML文書 -->
 <html>
+  <!-- ヘッダー：Webページの設定に関する情報 -->
   <head>
+    <!-- 文字コードの宣言 -->
     <meta charset="utf-8" />
+    <!-- ページタイトル -->
     <title>Hello CSS</title>
     <!-- CSSの読み込み -->
     <link rel="stylesheet" href="css2.css" />
   </head>
 
   <body>
-    あいうえお
-    <!-- 要素の分割 -->
+    <!-- div：要素の分割 -->
     <!-- class：分割した要素のクラス分け、クラス名は自由に指定できる -->
     <!-- headerクラス -->
-    <div class="header">かきくけこ</div>
+    <div class="header">
+      <!-- header-logoクラス -->
+      <div class="header-logo">プログラミング学校</div>
+      <!-- header-listクラス -->
+      <div class="header-list">
+        <!-- ul:番号なしリスト -->
+        <ul>
+          <!-- li：リスト項目 -->
+          <li>プログラミングとは</li>
+          <li>学べるレッスン</li>
+          <li>お問合せ</li>
+        </ul>
+      </div>
+    </div>
     <!-- mainクラス -->
-    <div class="main">さしすせそ</div>
+    <div class="main"></div>
     <!-- footerクラス -->
-    <div class="footer">たちつてと</div>
-    なにぬねの
+    <div class="footer"></div>
   </body>
 </html>

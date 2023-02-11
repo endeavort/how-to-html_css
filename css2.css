@@ -4,6 +4,25 @@
   background-color: #26d0c9;
   /* 高さ (px：ピクセル) */
   height: 90px;
+  /* 文字の色を白に変更 */
+  color: white;
+}
+
+/* header-logoクラス */
+.header-logo {
+  /* 左から順に横並び */
+  float: left;
+  /* 文字サイズを40pxに変更 */
+  font-size: 40px;
+  /* 余白の設定　上下20px 左右40px */
+  padding: 20px 40px;
+}
+
+li {
+  /* 文字の前の点を消す */
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
 }
 
 /* mainクラス */
