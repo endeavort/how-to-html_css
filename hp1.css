@@ -21,6 +21,10 @@
 li {
   /* 文字の前の点を消す */
   list-style: none;
+}
+
+/* header-listクラスのliのみ適用 */
+.header-list li {
   float: left;
   padding: 33px 20px;
 }
@@ -33,6 +37,26 @@ li {
 
 /* footerクラス */
 .footer {
-  background-color: #ceccf3;
-  height: 270px;
+  background-color: #2f5167;
+  color: white;
+  height: 120px;
+  /* 上下左右の余白を30pxに変更 */
+  padding: 30px;
+}
+
+/* footer-logoクラス */
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+/* footer-listクラス */
+.footer-list {
+  float: right;
+}
+
+/* footer-listクラスのliのみ適用 */
+.footer-list li {
+  /* 下の余白のみ10px */
+  padding-bottom: 10px;
 }
