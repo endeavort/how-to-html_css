@@ -78,6 +78,26 @@ li {
   margin-top: 20px;
 }
 
+/* inputとtextareaに適用 */
+input,
+textarea {
+  width: 500px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-button {
+  width: 100px;
+  height: 50px;
+  padding: 0px;
+  /* 枠線の外側に余白(上 右 下 左) */
+  margin: 0px 10px 0px 0px;
+  background-color: #dee7ec;
+}
+
 /* footerクラス */
 .footer {
   background-color: #2f5167;

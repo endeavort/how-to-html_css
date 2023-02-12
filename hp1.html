@@ -64,7 +64,28 @@
         </div>
       </div>
       <!-- contact-formクラス -->
-      <div class="contact-form"></div>
+      <div class="contact-form">
+        <!-- フォームの作成 -->
+        <!-- action：実行時の動作 method：データを送る形式 -->
+        <form action="送り先" method="post">
+          <!-- section-title再利用 -->
+          <h3 class="section-title">お問い合わせ</h3>
+          <p>メールアドレス（必須）</p>
+          <!-- input：1行入力用の入力欄（終了タグ不要） -->
+          <!-- type：入力する形式の種類 name：入力欄の名前 -->
+          <input type="email" name="adress" />
+          <p>お問い合わせ内容（必須）</p>
+          <!-- textarea：複数入力用の入力欄 -->
+          <!-- name:入力欄の名前 -->
+          <textarea name="message"></textarea>
+          <p>
+            <!-- type：reset リセットボタン value：ボタンに表示される文字 -->
+            <input class="contact-button" type="reset" value="リセット" />
+            <!-- type：submit 送信ボタン -->
+            <input class="contact-button" type="submit" value="送信" />
+          </p>
+        </form>
+      </div>
     </div>
     <!-- footerクラス -->
     <div class="footer">
