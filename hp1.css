@@ -34,16 +34,41 @@ li {
   padding: 100px 80px;
 }
 
+/* copy-containerクラスのh1のみ適用 */
 .copy-container h1 {
   font-size: 140px;
 }
 
+/* copy-containerクラスのh2のみ適用 */
 .copy-container h2 {
   font-size: 60px;
 }
 
+/* copy-containerクラスのspanのみ適用 */
 .copy-container span {
   color: #ff4a4a;
+}
+
+/* contentsクラス */
+.contents {
+  height: 400px;
+}
+
+.section-title {
+  /* 下に枠線(太さ,種類,色)*/
+  border-bottom: 5px solid #00bfff;
+  font-size: 32px;
+  /* 下に余白(枠線の内側) */
+  padding-bottom: 15px;
+  /* 下に余白(枠線の外側) */
+  margin-bottom: 50px;
+  /* 上に余白(枠線の外側) */
+  margin-top: 100px;
+}
+
+/* contents-itemクラス */
+.contents-item {
+  float: left;
 }
 
 /* footerクラス */
