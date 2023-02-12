@@ -69,6 +69,13 @@ li {
 /* contents-itemクラス */
 .contents-item {
   float: left;
+  margin-right: 60px;
+}
+
+/* contents-itemクラスのpのみ適用 */
+.contents-item p {
+  font-size: 22px;
+  margin-top: 20px;
 }
 
 /* footerクラス */
