@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+/* imageクラス */
+.image {
+  height: 200px;
+  /* 背景画像の設定 url：ファイルの場所 */
+  background-image: url("img/top.png");
+  /* 背景画像の大きさ */
+  /* cover：表示範囲を埋めつくすように自動で拡大縮小 */
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+}
