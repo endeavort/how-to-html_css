@@ -116,3 +116,17 @@ header {
 .twitter {
   background-color: #55acee;
 }
+
+/* footerクラス */
+footer {
+  padding-top: 10px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
