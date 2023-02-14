@@ -14,10 +14,30 @@ header {
   background-color: rgba(34, 49, 59, 0.9);
 }
 
+/* header-leftクラス */
+.header-left {
+  float: left;
+}
+
 /* logoクラス */
 .logo {
   width: 80px;
   margin-top: 10px;
+}
+
+/* header-rightクラス */
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right a {
+  color: white;
+  padding: 0 25px;
+  /* 縦の中央寄せ */
+  line-height: 65px;
+  /* インライン要素(a)をブロック要素に変更 */
+  display: block;
 }
 
 /* top-wrapperクラス */
