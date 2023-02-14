@@ -39,6 +39,15 @@ a {
   margin: 0 auto;
 }
 
+/* btn-wrapperクラス */
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
 /* btnクラス */
 .btn {
   padding: 8px 24px;
@@ -55,6 +64,10 @@ a {
   opacity: 1;
 }
 
+.fab {
+  margin-right: 5px;
+}
+
 /* signupクラス */
 .signup {
   background-color: #239b76;
@@ -69,13 +82,4 @@ a {
 /* twitterクラス */
 .twitter {
   background-color: #55acee;
-}
-
-/* btn-wrapperクラス */
-.btn-wrapper {
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
 }
