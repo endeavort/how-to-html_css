@@ -7,6 +7,19 @@ a {
   text-decoration: none;
 }
 
+/* headerクラス */
+header {
+  height: 65px;
+  /* 背景色の設定 rgba(赤, 緑, 青, 透過) */
+  background-color: rgba(34, 49, 59, 0.9);
+}
+
+/* logoクラス */
+.logo {
+  width: 80px;
+  margin-top: 10px;
+}
+
 /* top-wrapperクラス */
 .top-wrapper {
   padding: 180px 0 100px 0;
