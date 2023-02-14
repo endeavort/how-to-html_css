@@ -167,6 +167,37 @@ header {
   color: #b3aeb5;
 }
 
+.heading h3 {
+  font-weight: normal;
+}
+
+/* message-wrapperクラス */
+.message-wrapper {
+  /* 下線 */
+  border-bottom: 1px solid #eee;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* messageクラス */
+.message {
+  background-color: #5dca88;
+  padding: 10px 40px;
+  /* ボックスに影を付けて立体的にする(横, 縦, 色) */
+  box-shadow: 0 7px #1a7940;
+  /* 要素に乗った時のカーソルの形(pointe:指)*/
+  cursor: pointer;
+}
+
+/* active:クリックした時のみ適用 */
+.message:active {
+  /* 影を無効にする */
+  box-shadow: none;
+  /* 位置を基準値より上から7px下げる */
+  position: relative;
+  top: 7px;
+}
+
 /* footerクラス */
 footer {
   padding-top: 10px;
