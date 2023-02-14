@@ -1,3 +1,8 @@
+/* 全てのCSSに適用 */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -74,7 +79,7 @@ header {
 /* containerクラス */
 .container {
   padding: 0 15px;
-  width: 1170px;
+  width: 100%;
   margin: 0 auto;
 }
 
