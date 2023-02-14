@@ -2,16 +2,80 @@ body {
   margin: 0;
 }
 
-/* imageクラス */
-.image {
-  height: 200px;
+a {
+  /* 下線を消す */
+  text-decoration: none;
+}
+
+/* top-wrapperクラス */
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  color: white;
   /* 背景画像の設定 url：ファイルの場所 */
   background-image: url("img/top.png");
   /* 背景画像の大きさ */
   /* cover：表示範囲を埋めつくすように自動で拡大縮小 */
   background-size: cover;
+  /* テキストを中央に寄せる */
+  text-align: center;
 }
 
-h1 {
+.top-wrapper h1 {
+  font-size: 45px;
+  /* 透明度0~1(0だと完全に透明) */
+  opacity: 0.7;
+  /* 文字の間隔 */
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+/* containerクラス */
+.container {
+  padding: 0 15px;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* btnクラス */
+.btn {
+  padding: 8px 24px;
   color: white;
+  /* インライン要素(a)をインラインブロック要素に変更 */
+  display: inline-block;
+  opacity: 0.8;
+  /* 角を丸くする */
+  border-radius: 4px;
+}
+
+/* btnクラスの要素の上にカーソルが乗った時 */
+.btn:hover {
+  opacity: 1;
+}
+
+/* signupクラス */
+.signup {
+  background-color: #239b76;
+}
+
+/* facebookクラス */
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+/* twitterクラス */
+.twitter {
+  background-color: #55acee;
+}
+
+/* btn-wrapperクラス */
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
 }
