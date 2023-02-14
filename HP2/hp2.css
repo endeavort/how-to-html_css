@@ -12,6 +12,12 @@ header {
   height: 65px;
   /* 背景色の設定 rgba(赤, 緑, 青, 透過) */
   background-color: rgba(34, 49, 59, 0.9);
+  width: 100%;
+  /* 上部(top)に固定 */
+  position: fixed;
+  top: 0;
+  /* レイヤーを１にする(0~10, 0:一番下) */
+  z-index: 1;
 }
 
 /* header-leftクラス */
