@@ -117,6 +117,56 @@ header {
   background-color: #55acee;
 }
 
+/* lesson-wrapperクラス */
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+/* headingクラス */
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  /* 文字の太さ */
+  font-weight: normal;
+}
+
+/* lessonクラス */
+.lesson {
+  float: left;
+  /* 横幅を25％にする */
+  width: 25%;
+}
+
+/* lesson-iconクラス */
+.lesson-icon {
+  /* 自分自身の表示位置を基準にする */
+  position: relative;
+}
+
+.lesson-icon p {
+  width: 100%;
+  color: white;
+  /* position: relative;を基準としてtop(上)から80pxの位置に配置 */
+  position: absolute;
+  top: 80px;
+}
+
+/* txt-contentsクラス */
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #b3aeb5;
+}
+
 /* footerクラス */
 footer {
   padding-top: 10px;
