@@ -158,6 +158,14 @@ header {
 /* タブレット向けメディアクエリ */
 /* ウィンドウサイズが[1000ピクセル]以下の時 */
 @media (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
   /* lessonクラスの横幅を50％にする */
   .lesson {
     width: 50%;
@@ -177,6 +185,14 @@ header {
   .top-wrapper {
     /* 上部に130pxの間隔をつける */
     padding-top: 130px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
   }
 
   /* btnクラス */
