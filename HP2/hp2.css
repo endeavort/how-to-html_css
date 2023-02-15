@@ -79,6 +79,7 @@ header {
 /* containerクラス */
 .container {
   padding: 0 15px;
+  /* 横幅をwindowsサイズに合わせる */
   width: 100%;
   margin: 0 auto;
 }
@@ -130,7 +131,6 @@ header {
 
 /* lesson-wrapperクラス */
 .lesson-wrapper {
-  height: 500px;
   padding-bottom: 50px;
   background-color: #f7f7f7;
   text-align: center;
@@ -153,6 +153,14 @@ header {
   float: left;
   /* 横幅を25％にする */
   width: 25%;
+}
+
+/* ウィンドウサイズが1000ピクセル以下の時 */
+@media (max-width: 1000px) {
+  /* lessonクラスの横幅を50％にする */
+  .lesson {
+    width: 50%;
+  }
 }
 
 /* lesson-iconクラス */
@@ -180,6 +188,12 @@ header {
 
 .heading h3 {
   font-weight: normal;
+}
+
+/* clearクラス */
+.clear {
+  /* floatを解除 */
+  clear: left;
 }
 
 /* message-wrapperクラス */
