@@ -51,6 +51,16 @@ header {
   display: block;
 }
 
+/* menu-iconクラス */
+.menu-icon {
+  color: white;
+  font-size: 25px;
+  float: right;
+  padding: 15px 0;
+  /* 非表示にする */
+  display: none;
+}
+
 /* top-wrapperクラス */
 .top-wrapper {
   padding: 180px 0 100px 0;
@@ -82,6 +92,8 @@ header {
   /* 横幅をwindowsサイズに合わせる */
   width: 100%;
   margin: 0 auto;
+  /* 画面の最大幅を1170pxにする */
+  max-width: 1170px;
 }
 
 /* btn-wrapperクラス */
@@ -175,6 +187,18 @@ header {
 /* スマホ向けメディアクエリ */
 /* ウィンドウサイズが[670ピクセル]以下の時 */
 @media (max-width: 670px) {
+  /* menu-iconクラス */
+  .menu-icon {
+    /* ブロック要素で表示する */
+    display: block;
+  }
+
+  /* header-rightクラス */
+  .header-right {
+    /* 非表示にする */
+    display: none;
+  }
+
   /* lessonクラス */
   .lesson {
     /* 横幅を100％にする */
