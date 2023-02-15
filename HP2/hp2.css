@@ -155,11 +155,45 @@ header {
   width: 25%;
 }
 
-/* ウィンドウサイズが1000ピクセル以下の時 */
+/* タブレット向けメディアクエリ */
+/* ウィンドウサイズが[1000ピクセル]以下の時 */
 @media (max-width: 1000px) {
   /* lessonクラスの横幅を50％にする */
   .lesson {
     width: 50%;
+  }
+}
+
+/* スマホ向けメディアクエリ */
+/* ウィンドウサイズが[670ピクセル]以下の時 */
+@media (max-width: 670px) {
+  /* lessonクラス */
+  .lesson {
+    /* 横幅を100％にする */
+    width: 100%;
+  }
+
+  /* top-wrapperクラス */
+  .top-wrapper {
+    /* 上部に130pxの間隔をつける */
+    padding-top: 130px;
+  }
+
+  /* btnクラス */
+  .btn {
+    /* ボタンの横幅を100％にする */
+    width: 100%;
+  }
+
+  /* facebookクラス */
+  .facebook {
+    /* 下部に10pxの間隔をつける */
+    margin-bottom: 10px;
+  }
+
+  /* footerを中央寄せにする */
+  footer {
+    text-align: center;
   }
 }
 
